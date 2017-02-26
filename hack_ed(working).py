@@ -77,9 +77,11 @@ def base64(INPUT):
 ###################################################################################################################
 #take a string and return its bit pattern based on ASCII interpretation    
 def binaryConverter(INPUT):
-	binaryInput = ''
-	for char in INPUT:
-		binaryInput += format(ord(char),'08b') 
+  binaryInput = ''
+  for char in INPUT:
+    binaryInput += format(ord(char),'08b')
+  return binaryInput
+
 
 ####################################################################################################################
 
